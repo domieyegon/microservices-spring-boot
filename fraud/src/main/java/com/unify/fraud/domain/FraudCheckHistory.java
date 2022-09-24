@@ -20,6 +20,6 @@ public class FraudCheckHistory {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "fraud_id_sequence")
     private Integer Id;
     private Integer customerId;
-    private Boolean isFraud;
+    private Boolean isFraudster;
     private LocalDateTime createdAt;
 }
